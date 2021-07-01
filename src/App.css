@@ -57,3 +57,35 @@ nav ul li {
 .navbar {
   border-bottom: 0.063rem solid var(--primary-white) !important;
 }
+
+/******************* HEADER *******************/
+
+.header-wrapper {
+  position: relative;
+  background: url("pexels-mnm-zameer-330858.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.overlay {
+  background-color: rgba(4, 7, 70, 0.3);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  z-index: 1;
+}
