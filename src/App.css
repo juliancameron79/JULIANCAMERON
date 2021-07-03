@@ -110,7 +110,7 @@ nav ul li {
 }
 
 .about-heading {
-  color: var(--primary-orange);
+  color: var(--primary-dark-grey);
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -130,7 +130,7 @@ nav ul li {
 }
 
 .skills-heading {
-  color: var(--primary-purple);
+  color: var(--primary-dark-grey);
   text-transform: uppercase;
   font-weight: 300;
 }

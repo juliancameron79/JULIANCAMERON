@@ -5,7 +5,9 @@ import { faLaptopCode, faServer, faPencilRuler } from "@fortawesome/free-solid-s
 const Skills = () => {
   return (
     <div className="skills">
-      <h1 className="py-5 skills-heading">Skills</h1>
+      <h1 className="py-5 skills-heading" data-aos="fade-right" data-aos-duration="1000">
+        Skills
+      </h1>
 
       <div className="container">
         <div className="row">
@@ -60,7 +62,7 @@ const Skills = () => {
               </div>
               <div class="py-5 px-4">
                 <p class="skills-subtitle">Designer</p>
-                <p class="skills-text">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                <p class="skills-text">I value simple content structure, clean design and thoughtful interactions.</p>
                 <p class="skills-color-subtitle">I enjoy designing:</p>
                 <p class="skills-text">UX, UI, Web, Mobile, Logos</p>
                 <p class="skills-color-subtitle">Design Tools:</p>
