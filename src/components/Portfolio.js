@@ -127,7 +127,7 @@ const Portfolio = () => {
         <h1 className="portfolio-heading text-center py-5" data-aos="fade-right" data-aos-duration="1000">
           Portfolio
         </h1>
-        <div className="image-box-wrapper row row-cols-auto justify-content-center text-center position-absolute">
+        <div className="image-box-wrapper row row-cols-auto justify-content-center text-center">
           <div className="col-md-4 col-12 mb-4">
             <div className="portfolio-image-box" onClick={openPopupboxRecipeHeaven}>
               <img className="portfolio-image shadow-sm" src={recipeHeaven} alt="Food Recipe Site" />
