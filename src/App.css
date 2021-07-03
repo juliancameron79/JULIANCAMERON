@@ -7,6 +7,8 @@
   --primary-navbar: rgba(18, 23, 133, 0.48);
   --primary-grey: rgba(131, 131, 228, 0.02);
   --primary-purple: rgb(155, 89, 182);
+  --primary-blue: rgb(52, 152, 219);
+  --primary-black: #000000;
 }
 
 body {
@@ -198,14 +200,6 @@ nav ul li {
   background: var(--primary-white);
 }
 
-/* .skills .box:hover p {
-  color: var(--primary-white);
-}
-
-.skills .box:hover ul {
-  color: var(--primary-white);
-} */
-
 .frontend-skillset {
   width: auto;
   height: 100%;
@@ -232,5 +226,105 @@ nav ul li {
   }
   .design-skillset {
     border-radius: 0px 0px 35px 35px;
+  }
+}
+
+/******************* PORTFOLIO *******************/
+
+.portfolio-heading {
+  color: var(--primary-dark-grey);
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.portfolio-wrapper {
+  padding: 3rem 0;
+}
+
+.portfolio-image {
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+}
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+/*-------- OVERFLOW --------*/
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-blue);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  border: 1px solid var(--primary-blue);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -50%;
+  margin-top: 32%;
+  color: var(--primary-white);
+  font-size: 1.5rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.popupbox-wrapper {
+  margin-top: 7rem;
+}
+
+/*-------- OVERFLOW BOX --------*/
+
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-orange);
+}
+
+.hyper-link:hover {
+  color: var(--primary-red);
+}
+
+/*-------- MEDIA --------*/
+
+@media (max-width: 768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media (max-height: 570px) {
+  .popupbox-wrapper {
+    height: 100%;
+  }
+  .portfolio-image-popupbox {
+    width: 50%;
+  }
+}
+
+@media (max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+  .portfolio-image-popupbox {
+    width: 30%;
   }
 }
