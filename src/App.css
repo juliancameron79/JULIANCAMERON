@@ -11,6 +11,8 @@
   --primary-black: #000000;
   --primary-green: rgb(61, 196, 61);
   --primary-hover-red: #f33501;
+  --primary-slate-grey: #333;
+  --primary-light-slate-grey: #737373;
 }
 
 body {
@@ -439,10 +441,13 @@ textarea.form-control {
 
 /******************* FOOTER *******************/
 
-.footer {
-  background: var(--primary-black);
-  color: var(--primary-dark-grey);
-  padding: 3rem 0;
+.site-footer {
+  padding: 6rem 0;
+  background: var(--primary-slate-grey);
+}
+
+.site-footer p {
+  color: var(--primary-light-slate-grey);
 }
 
 .footer-heading {
@@ -450,12 +455,12 @@ textarea.form-control {
   color: var(--primary-white);
 }
 
-.footer a {
+.site-footer a {
   text-decoration: none;
-  color: var(--primary-dark-grey);
+  color: var(--primary-light-slate-grey);
 }
 
-.footer a:hover {
+.site-footer a:hover {
   text-decoration: none;
   color: var(--primary-orange);
   cursor: pointer;
@@ -468,7 +473,7 @@ textarea.form-control {
 /*-------- MEDIA --------*/
 
 @media (max-width: 768px) {
-  .mb-sm {
-    margin-bottom: 0.938rem;
+  .site-footer {
+    padding: 3rem 0;
   }
 }

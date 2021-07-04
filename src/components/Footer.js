@@ -7,7 +7,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="site-footer">
       <div className="container">
         <div className="row">
           <div className="col-md-9">
@@ -20,7 +20,7 @@ const Footer = () => {
                 </a>
                 <p>juliancameron79@gmail.com</p>
               </div>
-              <div className="col-md-3 ml-auto">
+              <div className="col-md-3 ms-auto">
                 <h2 className="footer-heading mb-4">Quick Links</h2>
                 <ul className="list-unstyled">
                   <li className="footer-nav">
@@ -52,17 +52,19 @@ const Footer = () => {
               </div>
               <div className="col-md-3">
                 <h2 className="footer-heading mb-4">Follow Me</h2>
-                <TwitterShareButton url={""} quote={"Full Stack Developer"} hashtag="#fullstack">
-                  <TwitterIcon className="mx-3" size={36}></TwitterIcon>
-                </TwitterShareButton>
-                <LinkedinShareButton url={"https://www.linkedin.com/in/julian-cameron/"} quote={"Full Stack Developer"} hashtag="#fullstack">
-                  <LinkedinIcon className="mx-3" size={36}></LinkedinIcon>
-                </LinkedinShareButton>
+                <div className="mb-3">
+                  <TwitterShareButton url={"https://twitter.com/JulianCameron79"} quote={"Full Stack Web Developer"} hashtag="#fullstack">
+                    <TwitterIcon className="me-3" size={36}></TwitterIcon>
+                  </TwitterShareButton>
+                  <LinkedinShareButton url={"https://www.linkedin.com/in/julian-cameron/"} quote={"Full Stack Web Developer"} hashtag="#fullstack">
+                    <LinkedinIcon className="mx-3 " size={36}></LinkedinIcon>
+                  </LinkedinShareButton>
+                </div>
               </div>
             </div>
           </div>
           <div className="col-md-3">
-            <h2 className="footer-heading mt-3 mb-4">Download My CV</h2>
+            <h2 className="footer-heading mb-4">Download My CV</h2>
             <p>
               Need a printable version of my CV? <br />
               Download it here.{" "}
