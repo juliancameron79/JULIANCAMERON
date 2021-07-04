@@ -122,7 +122,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="portfolio-wrapper">
+    <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
         <h1 className="portfolio-heading text-center py-5" data-aos="fade-right" data-aos-duration="1000">
           Portfolio

@@ -6,7 +6,7 @@ AOS.init();
 
 const Header = () => {
   return (
-    <div className="header-wrapper">
+    <div id="home" className="header-wrapper">
       <div className="overlay"></div>
       <div className="main-info">
         <div className="container">

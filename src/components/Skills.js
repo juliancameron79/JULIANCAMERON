@@ -4,7 +4,7 @@ import { faLaptopCode, faServer, faPencilRuler } from "@fortawesome/free-solid-s
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div id="skills" className="skills">
       <h1 className="py-5 skills-heading" data-aos="fade-right" data-aos-duration="1000">
         Skills
       </h1>

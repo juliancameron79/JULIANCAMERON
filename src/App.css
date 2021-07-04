@@ -436,3 +436,39 @@ textarea.form-control {
     padding: 0 0.4rem;
   }
 }
+
+/******************* FOOTER *******************/
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem 0;
+}
+
+.footer-heading {
+  font-size: 1rem;
+  color: var(--primary-white);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer-nav {
+  margin-bottom: 0.625rem;
+}
+
+/*-------- MEDIA --------*/
+
+@media (max-width: 768px) {
+  .mb-sm {
+    margin-bottom: 0.938rem;
+  }
+}

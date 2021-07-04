@@ -3,7 +3,7 @@ import author from "../julian-cameron.jpg";
 
 const AboutMe = () => {
   return (
-    <div className="container py-5">
+    <div id="about" className="container py-5">
       <div className="row">
         <div className="col-lg-6 col-sm-12">
           <div className="photo-wrapper mb-5" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
