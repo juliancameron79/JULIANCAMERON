@@ -122,10 +122,12 @@ const Portfolio = () => {
   };
 
   return (
-    <div id="portfolio" className="portfolio-wrapper">
+    <section className="site-section" id="portfolio">
       <div className="container">
-        <h1 className="portfolio-heading text-center py-5" data-aos="fade-right" data-aos-duration="1000">
+        <h1 className="portfolio-heading text-center mb-5" data-aos="fade-right" data-aos-duration="1000">
+          <div className="line-portfolio me-3" data-aos="fade-right" data-aos-duration="1000"></div>
           Portfolio
+          <div className="line-portfolio ms-3" data-aos="fade-right" data-aos-duration="1000"></div>
         </h1>
         <div className="image-box-wrapper row row-cols-auto justify-content-center text-center">
           <div className="col-md-4 col-12 mb-4">
@@ -156,7 +158,7 @@ const Portfolio = () => {
       <PopupboxContainer {...popupConfigEvcn} />
       <PopupboxContainer {...popupConfigMilestoneFloristry} />
       <PopupboxContainer {...popupConfigRecipeHeaven} />
-    </div>
+    </section>
   );
 };
 
