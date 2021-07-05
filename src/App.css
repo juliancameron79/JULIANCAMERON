@@ -11,10 +11,26 @@
   --primary-black: #000000;
   --primary-green: rgb(61, 196, 61);
   --primary-hover-red: #f33501;
+  --primary-slate-grey: #333;
+  --primary-light-slate-grey: #737373;
+  --primary-light: #f8f9fa;
+  --primary-grey-transparent: rgba(71, 82, 93, 0.15);
 }
 
 body {
   font-family: "Raleway", sans-serif !important;
+}
+
+.site-section {
+  padding: 6rem 0;
+}
+
+/*-------- MEDIA --------*/
+
+@media (max-width: 768px) {
+  .site-footer {
+    padding: 3rem 0;
+  }
 }
 
 /******************* NAVBAR *******************/
@@ -339,13 +355,25 @@ nav ul li {
   font-weight: 300;
 }
 
-.contacts {
-  background: var(--primary-grey);
-}
-
 .contacts p {
   color: var(--primary-light-grey);
   font-size: 1.2rem;
+}
+
+.line-contact {
+  position: relative;
+  top: -0.75rem;
+  width: 3rem;
+  height: 0.125rem;
+  background: var(--primary-orange);
+  display: inline-block;
+}
+
+.form-group {
+  padding: 3rem 1.5rem !important;
+  background: var(--primary-white);
+  border: 1px solid var(--primary-grey-transparent);
+  border-radius: 10px;
 }
 
 /*-------- INPUT --------*/
@@ -354,27 +382,26 @@ nav ul li {
 .contacts textarea {
   width: 100%;
   box-sizing: border-box;
-  background: none;
+  background: var(--primary-light);
   resize: none;
   border: 0;
-  border-bottom: 0.125rem solid var(--primary-dark-grey);
-  border-radius: 0;
+  border-bottom: 0.125rem solid var(--primary-grey-transparent);
+  border-radius: 10px 10px 0 0;
   color: var(--primary-orange);
   outline: 0 !important;
   box-shadow: none !important;
   margin-bottom: 1rem;
-  padding-left: 0 !important;
 }
 
 .contacts .container {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .contacts input:focus,
 .contacts textarea:focus {
-  background: transparent;
+  background: var(--primary-light);
   color: var(--primary-orange);
-  border-bottom: 0.125rem solid var(--primary-dark-grey);
+  border-bottom: 0.125rem solid var(--primary-grey-transparent);
 }
 
 .contacts textarea {
@@ -411,14 +438,39 @@ textarea.form-control {
 }
 
 .error-message {
-  color: var(--primary-white);
-  background: var(--primary-hover-red);
+  color: var(--primary-hover-red);
+  font-size: small;
   text-align: left;
+  font-weight: 600;
 }
 
 .success-message {
-  font-weight: 900;
-  color: var(--primary-green);
+  font-weight: 600;
+  color: var(--primary-orange);
+}
+
+/*-------- CONTACT BUTTON --------*/
+
+.btn-contact {
+  border: 1px solid var(--primary-orange);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem;
+  color: var(--primary-orange);
+  margin: 2rem;
+}
+
+.btn-contact:hover {
+  text-decoration: none;
+  background-color: var(--primary-orange);
+  color: var(--primary-white);
+  transition: 0.2s ease-in-out;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
 }
 
 /*-------- MEDIA --------*/
@@ -434,5 +486,45 @@ textarea.form-control {
 
   .contacts p {
     padding: 0 0.4rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+/******************* FOOTER *******************/
+
+.site-footer {
+  padding: 6rem 0;
+  background: var(--primary-slate-grey);
+}
+
+.site-footer p {
+  color: var(--primary-light-slate-grey);
+}
+
+.footer-heading {
+  font-size: 1rem;
+  color: var(--primary-white);
+}
+
+.site-footer a {
+  text-decoration: none;
+  color: var(--primary-light-slate-grey);
+}
+
+.site-footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer-nav {
+  margin-bottom: 0.625rem;
+}
+
+/*-------- MEDIA --------*/
+
+@media (max-width: 768px) {
+  .site-footer {
+    padding: 3rem 0;
   }
 }
