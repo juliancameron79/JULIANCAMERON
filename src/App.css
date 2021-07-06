@@ -2,6 +2,7 @@
 
 :root {
   --primary-white: #ffffff;
+  --primary-white-50: rgba(255, 255, 255, 0.55);
   --primary-dark-grey: #666666;
   --primary-orange: #f9ab00;
   --primary-navbar: rgba(18, 23, 133, 0.48);
@@ -22,14 +23,14 @@ body {
 }
 
 .site-section {
-  padding: 6rem 0;
+  padding: 8rem 0;
 }
 
 /*-------- MEDIA --------*/
 
 @media (max-width: 768px) {
   .site-footer {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
 }
 
@@ -65,19 +66,18 @@ nav ul li {
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-white) !important;
-  border-top: 0.1875rem solid transparent;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  color: var(--primary-white-50) !important;
 }
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid var(--primary-white);
+  font-weight: 400;
+  color: var(--primary-white) !important;
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-white);
+  font-weight: 400;
+  color: var(--primary-white) !important;
 }
 
 /******************* HEADER *******************/
@@ -87,7 +87,7 @@ nav ul li {
   background: url("pexels-mnm-zameer-330858.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .overlay {
@@ -95,7 +95,7 @@ nav ul li {
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -560,7 +560,7 @@ textarea.form-control {
 
 .site-footer a:hover {
   text-decoration: none;
-  color: var(--primary-orange);
+  color: var(--primary-white);
   cursor: pointer;
 }
 

@@ -129,7 +129,7 @@ const Portfolio = () => {
           Portfolio
           <div className="line-portfolio ms-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500"></div>
         </h1>
-        <div className="image-box-wrapper row row-cols-auto justify-content-center text-center" data-aos="fade" data-aos-duration="1000" data-aos-once="true">
+        <div className="image-box-wrapper row row-cols-auto justify-content-center text-center pt-4" data-aos="fade" data-aos-duration="1000" data-aos-once="true">
           <div className="col-md-4 col-12 mb-4">
             <div className="portfolio-image-box" onClick={openPopupboxRecipeHeaven}>
               <img className="portfolio-image shadow-sm" src={recipeHeaven} alt="Food Recipe Site" />

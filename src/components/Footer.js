@@ -68,7 +68,7 @@ const Footer = () => {
             <p>
               Need a printable version of my CV? <br />
               Download it here.{" "}
-              <a href={cv} target="_blank">
+              <a href={cv} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon className="text-white" icon={faDownload} size="1x" />
               </a>
             </p>

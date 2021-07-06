@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -7,12 +8,12 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark-blur fixed-top" id="navbar-example2" aria-label="Eighth navbar example">
       <div className="container">
-        <a className="navbar-brand d-none d-sm-block" href="#">
+        <Link to="home" className="navbar-brand d-none d-sm-block" href="#">
           Julian Cameron
-        </a>
-        <a className="navbar-brand d-sm-none d-lg-none" href="#">
+        </Link>
+        <Link to="home" className="navbar-brand d-sm-none d-lg-none" href="#">
           JC
-        </a>
+        </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
           <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff" }} />
         </button>
@@ -20,29 +21,29 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarsExample07">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#home">
+              <Link to="home" className="nav-link active" aria-current="page" href="#home">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">
+              <Link to="about" className="nav-link" href="#about">
                 about me
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#skills">
+              <Link to="skills" className="nav-link" href="#skills">
                 skills
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portfolio">
+              <Link to="portfolio" className="nav-link" href="#portfolio">
                 portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contacts">
+              <Link to="contacts" className="nav-link" href="#contacts">
                 contact me
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
