@@ -44,10 +44,10 @@ const Contacts = () => {
       <div className="container">
         <div className="contacts">
           <div className="text-center">
-            <h1 className="contacts-heading mb-5" data-aos="fade-right" data-aos-duration="1000">
-              <div className="line-contact me-3" data-aos="fade-right" data-aos-duration="1000"></div>
+            <h1 className="contacts-heading mb-5" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
+              <div className="line-contact me-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500"></div>
               contact me
-              <div className="line-contact ms-3" data-aos="fade-right" data-aos-duration="1000"></div>
+              <div className="line-contact ms-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500"></div>
             </h1>
             <p>Please fill out the form and I'll contact you as soon as possible.</p>
             <span className="success-message">{successMessage}</span>

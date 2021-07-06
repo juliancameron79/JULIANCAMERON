@@ -5,15 +5,15 @@ import { faLaptopCode, faServer, faPencilRuler } from "@fortawesome/free-solid-s
 const Skills = () => {
   return (
     <div id="skills" className="site-section skills">
-      <h1 className="mb-5 skills-heading" data-aos="fade-right" data-aos-duration="1000">
-        <div className="line-skills me-3" data-aos="fade-right" data-aos-duration="1000"></div>
+      <h1 className="mb-5 skills-heading" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
+        <div className="line-skills me-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500"></div>
         Skills
-        <div className="line-skills ms-3" data-aos="fade-right" data-aos-duration="1000"></div>
+        <div className="line-skills ms-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500"></div>
       </h1>
 
       <div className="container">
         <div className="row">
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4 col-sm-6" data-aos="fade" data-aos-duration="1000" data-aos-once="true">
             <div className="box frontend-skillset shadow-sm">
               <div class="py-5">
                 <div className="icon-wrapper mb-5">
@@ -35,7 +35,7 @@ const Skills = () => {
             </div>
           </div>
           {/* - */}
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4 col-sm-6" data-aos="fade" data-aos-duration="1000" data-aos-delay="250" data-aos-once="true">
             <div className="box backend-skillset shadow-sm">
               <div class="py-5">
                 <div className="icon-wrapper mb-5">
@@ -57,7 +57,7 @@ const Skills = () => {
             </div>
           </div>
           {/* - */}
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4 col-sm-6" data-aos="fade" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
             <div className="box design-skillset shadow-sm">
               <div class="py-5">
                 <div className="icon-wrapper mb-5">
