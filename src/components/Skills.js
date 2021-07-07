@@ -22,11 +22,11 @@ const Skills = () => {
                 <p class="skills-subtitle">Front-end</p>
                 <p class="skills-text">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
                 <p class="skills-color-subtitle">Languages I speak:</p>
-                <p class="skills-text">HTML, CSS, JS, Sass</p>
+                <p class="skills-text">HTML, CSS, JS</p>
                 <p class="skills-color-subtitle">Dev Tools:</p>
                 <ul class="p-0">
                   <li class="skills-text">Bootstrap</li>
-                  <li class="skills-text">Git</li>
+                  <li class="skills-text">React</li>
                   <li class="skills-text">GitHub</li>
                   <li class="skills-text">VS Code</li>
                   <li class="skills-text">Matialise</li>
@@ -42,16 +42,18 @@ const Skills = () => {
                   <FontAwesomeIcon className="skills-icon" icon={faServer} size="2x" />
                 </div>
                 <p class="skills-subtitle">Back-end</p>
-                <p class="skills-text">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                <p class="skills-text">
+                  I am always learning and I'm happy to do what it takes to get it done. <span className="invisible">Lorem ipsum dolor sit.</span>{" "}
+                </p>
                 <p class="skills-color-subtitle">Languages I speak:</p>
-                <p class="skills-text">HTML, CSS, JS, Sass</p>
+                <p class="skills-text">Python, JS</p>
                 <p class="skills-color-subtitle">Dev Tools:</p>
                 <ul class="p-0">
-                  <li class="skills-text">Bootstrap</li>
-                  <li class="skills-text">Git</li>
-                  <li class="skills-text">GitHub</li>
-                  <li class="skills-text">VS Code</li>
-                  <li class="skills-text">Matialise</li>
+                  <li class="skills-text">Python</li>
+                  <li class="skills-text">Django</li>
+                  <li class="skills-text">MongoDB</li>
+                  <li class="skills-text">MySQL</li>
+                  <li class="skills-text">NoSQL</li>
                 </ul>
               </div>
             </div>
@@ -66,7 +68,7 @@ const Skills = () => {
                 <p class="skills-subtitle">Designer</p>
                 <p class="skills-text">I value simple content structure, clean design and thoughtful interactions.</p>
                 <p class="skills-color-subtitle">I enjoy designing:</p>
-                <p class="skills-text">UX, UI, Web, Mobile</p>
+                <p class="skills-text">UI, Web, Mobile, Logos</p>
                 <p class="skills-color-subtitle">Design Tools:</p>
                 <ul class="p-0">
                   <li class="skills-text">Figma</li>
