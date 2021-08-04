@@ -17,6 +17,9 @@ const Header = () => {
                 Julian Cameron
               </h1>
               <div className="display-6 text-white">
+                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="200">
+                  Junior{" "}
+                </span>
                 <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="300">
                   F
                 </span>
