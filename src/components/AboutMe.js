@@ -4,11 +4,13 @@ import author from "../julian-cameron.jpg";
 const AboutMe = () => {
   return (
     <section className="site-section" id="about">
-      <h1 className="portfolio-heading text-center mb-5" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
-        <div className="line-about-me me-3" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="500"></div>
-        About Me
-        <div className="line-about-me ms-3" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="500"></div>
-      </h1>
+      <div className="text-center">
+        <h1 className="portfolio-heading text-center mb-5" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
+          <div className="line-about-me me-3" data-aos="fade" data-aos-duration="1400" data-aos-delay="500"></div>
+          About Me
+          <div className="line-about-me ms-3" data-aos="fade" data-aos-duration="1200" data-aos-delay="500"></div>
+        </h1>
+      </div>
       <div className="container pt-4">
         <div className="row">
           <div className="col-lg-6 col-sm-12">

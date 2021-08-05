@@ -124,11 +124,13 @@ const Portfolio = () => {
   return (
     <section className="site-section" id="portfolio">
       <div className="container">
-        <h1 className="portfolio-heading text-center mb-5" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
-          <div className="line-portfolio me-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500"></div>
-          Portfolio
-          <div className="line-portfolio ms-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500"></div>
-        </h1>
+        <div className="text-center">
+          <h1 className="portfolio-heading text-center mb-5" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
+            <div className="line-portfolio me-3" data-aos="fade" data-aos-duration="1000" data-aos-delay="500"></div>
+            Portfolio
+            <div className="line-portfolio ms-3" data-aos="fade" data-aos-duration="1000" data-aos-delay="500"></div>
+          </h1>
+        </div>
         <div className="image-box-wrapper row row-cols-auto justify-content-center text-center pt-4" data-aos="fade" data-aos-duration="1000" data-aos-once="true">
           <div className="col-md-4 col-12 mb-4">
             <div className="portfolio-image-box" onClick={openPopupboxRecipeHeaven}>
