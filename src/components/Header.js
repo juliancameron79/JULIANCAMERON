@@ -18,61 +18,57 @@ const Header = () => {
               </h1>
               <div className="display-6 text-white">
                 <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="300">
-                  J
+                  F
                 </span>
                 <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="400">
                   u
                 </span>
                 <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="500">
-                  n
+                  l
                 </span>
                 <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="600">
-                  i
+                  l
                 </span>
                 <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="700">
-                  o
-                </span>
-                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="800">
-                  r
-                </span>
-                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="900">
-                  {" "}
-                  F
-                </span>
-                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1000">
-                  u
-                </span>
-                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1100">
-                  l
-                </span>
-                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1200">
-                  l
-                </span>
-                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1300">
                   {" "}
                   S
                 </span>
-                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1400">
+                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="800">
                   t
                 </span>
-                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1500">
+                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="900">
                   a
                 </span>
-                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1600">
+                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1000">
                   c
                 </span>
-                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1700">
+                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1100">
                   k
                 </span>
-                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1800">
+                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1200">
                   {" "}
-                  W
+                  S
+                </span>
+                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1300">
+                  o
+                </span>
+                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1400">
+                  f
+                </span>
+                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1500">
+                  t
+                </span>
+                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1600">
+                  w
+                </span>
+                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1700">
+                  a
+                </span>
+                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1800">
+                  r
                 </span>
                 <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="1900">
                   e
-                </span>
-                <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="2000">
-                  b
                 </span>
                 <span data-aos="fade" data-aos-easing="ease-in-back" data-aos-delay="2100">
                   {" "}

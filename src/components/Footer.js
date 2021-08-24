@@ -1,6 +1,11 @@
 import React from "react";
 import cv from "../images/juliancameroncv.pdf";
-import { TwitterShareButton, TwitterIcon, LinkedinShareButton, LinkedinIcon } from "react-share";
+import {
+  TwitterShareButton,
+  TwitterIcon,
+  LinkedinShareButton,
+  LinkedinIcon,
+} from "react-share";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
@@ -14,7 +19,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-5">
                 <h2 className="footer-heading mb-4">Me</h2>
-                <p>Julian Cameron | Full Stack Web Developer</p>
+                <p>Julian Cameron | Full Stack Software Developer</p>
                 <a href="tel:076-429-1257">
                   <p>+46(0)76-429-1257</p>
                 </a>
@@ -53,10 +58,18 @@ const Footer = () => {
               <div className="col-md-3">
                 <h2 className="footer-heading mb-4">Follow Me</h2>
                 <div className="mb-3">
-                  <TwitterShareButton url={"https://twitter.com/JulianCameron79"} quote={"Full Stack Web Developer"} hashtag="#fullstack">
+                  <TwitterShareButton
+                    url={"https://twitter.com/JulianCameron79"}
+                    quote={"Full Stack Web Developer"}
+                    hashtag="#fullstack"
+                  >
                     <TwitterIcon className="me-3" size={36}></TwitterIcon>
                   </TwitterShareButton>
-                  <LinkedinShareButton url={"https://www.linkedin.com/in/julian-cameron/"} quote={"Full Stack Web Developer"} hashtag="#fullstack">
+                  <LinkedinShareButton
+                    url={"https://www.linkedin.com/in/julian-cameron/"}
+                    quote={"Full Stack Web Developer"}
+                    hashtag="#fullstack"
+                  >
                     <LinkedinIcon className="mx-3 " size={36}></LinkedinIcon>
                   </LinkedinShareButton>
                 </div>
@@ -69,7 +82,11 @@ const Footer = () => {
               Need a printable version of my CV? <br />
               Download it here.{" "}
               <a href={cv} target="_blank" rel="noreferrer">
-                <FontAwesomeIcon className="text-white" icon={faDownload} size="1x" />
+                <FontAwesomeIcon
+                  className="text-white"
+                  icon={faDownload}
+                  size="1x"
+                />
               </a>
             </p>
           </div>
@@ -80,7 +97,8 @@ const Footer = () => {
               <p class="mb-0 text-center">
                 <small>
                   Copyright&copy;
-                  {new Date().getFullYear()}&nbsp;Julian Cameron | All Rights Reserved
+                  {new Date().getFullYear()}&nbsp;Julian Cameron | All Rights
+                  Reserved
                 </small>
               </p>
             </div>
