@@ -24,6 +24,7 @@ body {
 
 .site-section {
   padding: 8rem 0;
+  border-bottom: 1px solid var(--primary-grey-transparent);
 }
 
 /*-------- MEDIA --------*/
