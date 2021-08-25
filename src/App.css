@@ -94,6 +94,7 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  backdrop-filter: blur(4px);
 }
 
 .main-info {

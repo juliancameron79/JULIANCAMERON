@@ -11,8 +11,7 @@ const Header = () => {
       <div className="main-info">
         <div className="container">
           <div className="row">
-            <div className="col-md-2"></div>
-            <div className="col-md-10 col-12 px-4">
+            <div className="col-md-10 offset-md-2 col-12 px-4">
               <h1 className="display-2 text-white" span data-aos="fade" data-aos-easing="ease-in" data-aos-delay="100">
                 Julian Cameron
               </h1>
