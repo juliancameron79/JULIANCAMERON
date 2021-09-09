@@ -35,6 +35,28 @@ body {
   }
 }
 
+/******************* DIVIDER *******************/
+
+.overlay1 {
+  background-color: rgba(4, 7, 70, 0.3);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(4px);
+}
+
+.word_map1 {
+  height: 20vh;
+  bottom: 0;
+  width: 100%;
+  background: url(../src/images/wordcloud.svg) no-repeat;
+  opacity: 0.3;
+  background-position: center;
+  background-size: 140%;
+  border-bottom: 1px solid var(--primary-grey-transparent);
+  /* background: chartreuse; */
+}
+
 /******************* NAVBAR *******************/
 
 .navbar-brand {
